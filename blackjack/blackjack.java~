@@ -1,0 +1,36 @@
+import java.util.*;
+
+public class blackjack
+{
+  public static void main(String[]args)
+  {
+    
+    System.out.println("Welcome to Blackjack!");
+    
+    int pPoints = 500; //player points
+    int cPoints= 500; //computer points
+    
+    
+    
+    //prints a random double between 1 <= x < 2 
+    System.out.println((int)(Math.random()*14 + 1));
+    System.out.println((int)(Math.random()*14 + 1));
+    System.out.println((int)(Math.random()*14 + 1));
+    System.out.println((int)(Math.random()*14 + 1));
+    System.out.println((int)(Math.random()*14 + 1));
+    System.out.println((int)(Math.random()*14 + 1));
+    
+     
+    
+    
+    
+                       
+    //14 differnet card
+    //Different Cards and their values
+    // 1-10 : just point value
+    // J, Q, K = 10
+    // A : 1 or 11 --> player's choice
+
+    
+  }
+}
